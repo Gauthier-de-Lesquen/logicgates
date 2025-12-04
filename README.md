@@ -3,7 +3,7 @@
 ### Description
 
 #### Overview
-> LogicGates simplified the use of logical operations in Python. (You can now do ```NAND(True, False, False)``` instead of ```not True and not False and not False```!!) 
+> LogicGates simplified the use of logical operations in Python. (You can now do ```lg.NAND(True, False, False)``` instead of ```not True and not False and not False```!!) 
 
 #### What is on LogicGates?
 
@@ -66,5 +66,6 @@ you can display a truth table by using the function ```display_truth_table("XOR"
 you can use the 2 to 1 multiplexer integrated on the library using the function ```mux(I0, I1, S)```, and the 1 to 2 demultiplexer using ```demux(I, S)```.
 
 #### IV. Find the output of a logic gate
+
 
 to find the output of a logic gate, you can use the function ```eval_gate("OR", 0, 1)```. this example will return ```1``` for instance.
