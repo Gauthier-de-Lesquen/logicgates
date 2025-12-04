@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "logicgates"
+version = "0.1.0"
+description = "Un package Python pour manipuler facilement les portes logiques."
+readme = "README.md"
+requires-python = ">=3.0"
+
+authors = [
+  { name="BitQXZ"}
+]
+
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+
+# Pas de dépendances
+dependencies = []
+
+[tool.setuptools.packages.find]
+include = ["logicgates*"]
