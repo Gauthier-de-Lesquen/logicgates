@@ -1,0 +1,51 @@
+def display_truth_table(gate :str):
+    gate = gate.upper()
+    if gate == "NOT":
+        print("|A     | NOT A|")
+        print("|------+------|")
+        print("|0     |     1|")
+        print("|1     |     0|")
+    elif gate == "AND":
+        print("|    A    |    B    | A AND B |")
+        print("|---------+---------+---------|")
+        print("|0        |0        |0        |")
+        print("|0        |1        |0        |")
+        print("|1        |0        |0        |")
+        print("|1        |1        |1        |")
+    elif gate == "NAND":
+        print("|    A    |    B    | A NAND B|")
+        print("|---------+---------+---------|")
+        print("|0        |0        |1        |")
+        print("|0        |1        |1        |")
+        print("|1        |0        |1        |")
+        print("|1        |1        |0        |")
+    elif gate == "OR":
+        print("|   A   |   B   | A OR B|")
+        print("|-------+-------+-------|")
+        print("|0      |0      |0      |")
+        print("|0      |1      |1      |")
+        print("|1      |0      |1      |")
+        print("|1      |1      |1      |")
+    elif gate == "NOR":
+        print("|    A    |    B    | A NOR B |")
+        print("|---------+---------+---------|")
+        print("|0        |0        |1        |")
+        print("|0        |1        |0        |")
+        print("|1        |0        |0        |")
+        print("|1        |1        |0        |")
+    elif gate == "XOR":
+        print("|    A    |    B    | A XOR B |")
+        print("|---------+---------+---------|")
+        print("|0        |0        |0        |")
+        print("|0        |1        |1        |")
+        print("|1        |0        |1        |")
+        print("|1        |1        |0        |")
+    elif gate == "XNOR":
+        print("|    A    |    B    | A XNOR B|")
+        print("|---------+---------+---------|")
+        print("|0        |0        |1        |")
+        print("|0        |1        |0        |")
+        print("|1        |0        |0        |")
+        print("|1        |1        |1        |")
+    else:
+        print('invalid gate')    
