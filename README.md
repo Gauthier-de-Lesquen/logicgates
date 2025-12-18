@@ -1,5 +1,9 @@
 ## LogicGates
 *A Python package to work with logic gates, truth tables, multiplexers, and more.*
+
+### How to install logicgates?
+unfortunately, logicgates isn't published in PyPi. To use it, you can open your shell (like cmd or bash) to the path of the directory containing logicgates and type ```pip install . ```, you will then be able to use it like a normal python library.
+
 ### Description
 
 #### Overview
@@ -69,3 +73,4 @@ you can use the 2 to 1 multiplexer integrated on the library using the function 
 
 
 to find the output of a logic gate, you can use the function ```eval_gate("OR", 0, 1)```. this example will return ```1``` for instance.
+
